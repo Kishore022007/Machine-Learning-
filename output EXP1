@@ -1,0 +1,28 @@
+Python 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+================= RESTART: C:\Users\USER\Downloads\1.find_s.py =================
+[['sky', 'airtemp', 'humidity', 'wind', 'water', 'forcast', 'enjoysport'], ['sunny', 'warm', 'normal', 'strong', 'warm', 'same', 'yes'], ['sunny', 'warm', 'high', 'strong', 'warm', 'same', 'yes'], ['rainy', 'cold', 'high', 'strong', 'warm', 'change', 'no'], ['sunny', 'warm', 'high', 'strong', 'cool', 'change', 'yes']]
+
+ The total number of training instances are :  5
+
+ The initial hypothesis is : 
+['0', '0', '0', '0', '0', '0']
+
+ The hypothesis for the training instance 1 is :
+ ['0', '0', '0', '0', '0', '0']
+
+ The hypothesis for the training instance 2 is :
+ ['sunny', 'warm', 'normal', 'strong', 'warm', 'same']
+
+ The hypothesis for the training instance 3 is :
+ ['sunny', 'warm', '?', 'strong', 'warm', 'same']
+
+ The hypothesis for the training instance 4 is :
+ ['sunny', 'warm', '?', 'strong', 'warm', 'same']
+
+ The hypothesis for the training instance 5 is :
+ ['sunny', 'warm', '?', 'strong', '?', '?']
+
+ The Maximally specific hypothesis for the training instance is 
+['sunny', 'warm', '?', 'strong', '?', '?']
